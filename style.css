@@ -1,0 +1,35 @@
+body {
+    font-family:"Comic Sans MS",cursive; 
+    text-align: center;
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    min-height: 100vh;
+    background: linear-gradient(120deg, chartreuse 0%, chartreuse 50%, cornflowerblue 50%, cornflowerblue 100%);
+}
+
+#grid {
+    width:90vw;
+    margin:auto;
+    height: 80vh;
+}
+
+.row {
+    display:flex;
+    height:16vh;
+}
+
+.cell{
+    border:1px solid black;
+    flex-grow:1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:20%;
+    font-size:12px
+}
+
+.complete {
+    background:orange;
+    text-decoration:line-through
+}
